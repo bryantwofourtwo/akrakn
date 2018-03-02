@@ -1,7 +1,7 @@
 import React from 'react';
 import "./SearchBar.css";
 const SearchBar = () => (
-    <div className="input-group mb-3">
+    <div className="input-group mb-10">
         <div className="input-group-prepend">
             <span className="input-group-text" id="inputGroup-sizing-default">Search</span>
         </div>

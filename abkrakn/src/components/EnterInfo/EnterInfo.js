@@ -32,11 +32,11 @@ class EnterInfo extends Component {
             <div className="form-row">
                 <div className="form-group col-md-12">
                     <label>Email</label>
-                    <input type="email" className="form-control" name="inputEmail4" value={this.state.inputEmail4} placeholder="Email" onChange={this.handleChange}/>
+                    <input type="email" className="form-control" name="inputEmail4" value={this.state.inputEmail4} placeholder="example@aol.com" onChange={this.handleChange}/>
                 </div>
                 <div className="form-group col-md-12">
                     <label>Password</label>
-                    <input type="password" className="form-control" name="inputPassword4" value={this.state.inputPassword4}  onChange={this.handleChange} placeholder="Password" />
+                    <input type="password" className="form-control" name="inputPassword4" value={this.state.inputPassword4}  onChange={this.handleChange} placeholder="*****" />
                 </div>
             </div>
                 <div className="form-group col-md-12">
@@ -46,7 +46,7 @@ class EnterInfo extends Component {
                 </div>
                 <div className="form-group col-md-12">
                     <label>Name</label>
-                    <input type="text" className="form-control" name="inputName" value={this.state.inputName}placeholder="enter name" />
+                    <input type="text" className="form-control" name="inputName" value={this.state.inputName}placeholder="enter your name" />
                 </div>                   
             <button type="submit" className="btn btn-outline-dark">Submit</button>
         </form>
