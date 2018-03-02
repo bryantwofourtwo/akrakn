@@ -44,10 +44,15 @@ class EnterInfo extends Component {
                     <input type="text" className="form-control" name="inputItemNumber" value={this.state.inputItemNumber}  onChange={this.handleChange} placeholder="ASIN #" />
                     <button className="btn btn-outline-dark" onClick={this.handleClick}><span>SEARCH</span></button>
                 </div>
-                <div className="form-group col-md-12">
-                    <label>Name</label>
-                    <input type="text" className="form-control" name="inputName" value={this.state.inputName}placeholder="enter your name" />
-                </div>                   
+                <div className="form-row">
+                    <div className="col-md-6">
+                    <input type="text" className="form-control" placeholder="First Name" />
+                    </div>
+                    <div className="col-md-6">
+                    <input type="text" className="form-control" placeholder="Last Name" />
+                    </div>
+                </div>
+
             <button type="submit" className="btn btn-outline-dark">Submit</button>
         </form>
     </div>)
