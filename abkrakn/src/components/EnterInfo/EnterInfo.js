@@ -30,21 +30,21 @@ class EnterInfo extends Component {
     <div className="container" id="enterInfo">
         <form>
             <div className="form-row">
-                <div className="form-group col-md-6">
+                <div className="form-group col-md-12">
                     <label>Email</label>
                     <input type="email" className="form-control" name="inputEmail4" value={this.state.inputEmail4} placeholder="Email" onChange={this.handleChange}/>
                 </div>
-                <div className="form-group col-md-6">
+                <div className="form-group col-md-12">
                     <label>Password</label>
                     <input type="password" className="form-control" name="inputPassword4" value={this.state.inputPassword4}  onChange={this.handleChange} placeholder="Password" />
                 </div>
             </div>
-                <div className="form-group">
+                <div className="form-group col-md-12">
                     <label>Enter Item Number</label>
                     <input type="text" className="form-control" name="inputItemNumber" value={this.state.inputItemNumber}  onChange={this.handleChange} placeholder="ASIN #" />
                     <button className="btn btn-outline-dark" onClick={this.handleClick}><span>SEARCH</span></button>
                 </div>
-                <div className="form-group">
+                <div className="form-group col-md-12">
                     <label>Name</label>
                     <input type="text" className="form-control" name="inputName" value={this.state.inputName}placeholder="enter name" />
                 </div>                   
