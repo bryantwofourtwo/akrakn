@@ -53,7 +53,7 @@ class EnterInfo extends Component {
                     <div className="col-md-8">
                     <input type="text" className="form-control" placeholder="Last Name" />                
                     <br />
-                    <button type="submit" className="btn btn-outline-dark">Submit</button>
+                    <button type="submit" className="btn btn-outline-dark" onClick={this.handleClick}>Submit</button>
                     </div>
                 </div>            
         </form>
