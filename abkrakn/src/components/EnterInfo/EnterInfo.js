@@ -17,7 +17,7 @@ class EnterInfo extends Component {
         this.setState({
             [name]: value
         })
-        
+        // need to send data
     }
 
     handleClick = (event) => {
